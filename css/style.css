@@ -84,6 +84,11 @@ p.lead {
     -webkit-transition: background-color 0.40s;
     transition: background-color 0.40s;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height: 350px;
+    margin: auto;
+}
 @media screen and (max-width: 767px) {
     #intro{
         font-size: 32pt;
